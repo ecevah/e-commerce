@@ -5,9 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:grock/grock.dart';
 
+// ignore: must_be_immutable
 class ProductDetail extends ConsumerStatefulWidget {
   Product product;
-  ProductDetail({required this.product});
+  ProductDetail({super.key, required this.product});
   @override
   ConsumerState<ConsumerStatefulWidget> createState() => _ProductDetailState();
 }

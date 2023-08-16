@@ -1,10 +1,7 @@
-import 'package:eticaret/constant/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:grock/grock.dart';
-
 import '../components/product_card.dart';
-import '../model/home_product_model.dart';
 import '../riverpod/home_riverpod.dart';
 
 final homeRiverpod = ChangeNotifierProvider((ref) => HomeRivepod());

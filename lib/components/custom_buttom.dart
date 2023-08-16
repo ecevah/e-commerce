@@ -2,6 +2,7 @@ import 'package:eticaret/constant/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:grock/grock.dart';
 
+// ignore: must_be_immutable
 class CustomButton extends StatelessWidget {
   Function onTap;
   String text;
@@ -16,7 +17,7 @@ class CustomButton extends StatelessWidget {
       child: ElevatedButton(
         onPressed: () => onTap(),
         style: ElevatedButton.styleFrom(
-            primary: Constant.orange,
+            backgroundColor: Constant.orange,
             shape: RoundedRectangleBorder(borderRadius: 10.allBR)),
         child: Text(
           text,

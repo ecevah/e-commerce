@@ -1,5 +1,3 @@
-import 'package:eticaret/assets.dart';
-import 'package:eticaret/components/custom_appbar.dart';
 import 'package:eticaret/components/product_card.dart';
 import 'package:eticaret/constant/constant.dart';
 import 'package:eticaret/model/home_product_model.dart';

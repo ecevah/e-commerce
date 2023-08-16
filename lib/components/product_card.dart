@@ -4,9 +4,10 @@ import 'package:eticaret/view/product_detail.dart';
 import 'package:flutter/material.dart';
 import 'package:grock/grock.dart';
 
+// ignore: must_be_immutable
 class ProductCard extends StatelessWidget {
   Product product;
-  ProductCard({required this.product});
+  ProductCard({super.key, required this.product});
 
   @override
   Widget build(BuildContext context) {
